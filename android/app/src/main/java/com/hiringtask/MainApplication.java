@@ -10,6 +10,8 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+import com.BV.LinearGradient.LinearGradientPackage; // <--- This! 
+
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -35,6 +37,13 @@ public class MainApplication extends Application implements ReactApplication {
         }
       };
 
+// @Override
+// protected List<ReactPackage> getPackages() {
+//   return Arrays.<ReactPackage>asList(
+//     new MainReactPackage(),
+//     new LinearGradientPackage() // <---- and This! 
+//   );
+// }
   @Override
   public ReactNativeHost getReactNativeHost() {
     return mReactNativeHost;
