@@ -1,8 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
-
-import {SvgUri} from 'react-native-svg';
 
 //Screens
 import Tasks from './GoalsScreens/Tasks';

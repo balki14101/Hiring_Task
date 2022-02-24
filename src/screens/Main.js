@@ -1,7 +1,5 @@
 import React from 'react';
-import {View, Text, Image} from 'react-native';
-// import {SvgUri} from 'react-native-svg';
-import SvgUri from 'react-native-svg-uri';
+import {Image} from 'react-native';
 
 //Bottom-Tabs-Package
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -32,7 +30,7 @@ const Main = () => {
         tabBarStyle: {backgroundColor: Colors.PRIMARY, height: 70},
         tabBarActiveTintColor: Colors.TAB_BAR,
         tabBarInactiveTintColor: Colors.TAB_BAR,
-        tabBarActiveBackgroundColor: 'red', // needs to be changed
+        // tabBarActiveBackgroundColor: 'red', // needs to be changed
         tabBarItemStyle: {padding: 16},
       }}>
       <Screen

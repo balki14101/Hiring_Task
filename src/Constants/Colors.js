@@ -6,6 +6,9 @@ const Colors = {
   BLACK: '#000000',
   WHITE: '#FFFFFF',
   GREEN: '#18BB0C',
+  RED: '#CA024F',
+  GRADIENT_FROM: '#77C2F1',
+  GRADIENT_TO: '#FFB4ED',
 };
 
 export default Colors;

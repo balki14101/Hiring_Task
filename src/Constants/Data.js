@@ -57,22 +57,27 @@ export const YourTaskData = [
 
 export const TaskSummaryData = [
   {
+    activityType: 'Bank Transfer',
     transfer: '1505.00',
     date: '22/02/2020',
   },
   {
+    activityType: 'Bank Transfer',
     transfer: '2000.00',
     date: '22/02/2020',
   },
   {
+    activityType: 'Barrowed',
     transfer: '167.00',
     date: '13/09/2020',
   },
   {
+    activityType: 'Bank Transfer',
     transfer: '2000.00',
     date: '22/02/2020',
   },
   {
+    activityType: 'Barrowed',
     transfer: '1690.00',
     date: '22/02/2020',
   },
