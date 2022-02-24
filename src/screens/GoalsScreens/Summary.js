@@ -110,7 +110,9 @@ var styles = StyleSheet.create({
   contentView: {
     flex: 1,
     width: '100%',
-    padding: 16,
+    // padding: 16,
+    paddingHorizontal: 16,
+    paddingTop: 16,
   },
   headerView: {
     flexDirection: 'row',

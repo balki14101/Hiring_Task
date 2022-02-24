@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image} from 'react-native';
+import {Image, View} from 'react-native';
 
 //Bottom-Tabs-Package
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -30,7 +30,8 @@ const Main = () => {
         tabBarStyle: {backgroundColor: Colors.PRIMARY, height: 70},
         tabBarActiveTintColor: Colors.TAB_BAR,
         tabBarInactiveTintColor: Colors.TAB_BAR,
-        // tabBarActiveBackgroundColor: 'red', // needs to be changed
+        // tabBarActiveBackgroundColor: '#7501B5', // needs to be changed
+
         tabBarItemStyle: {padding: 16},
       }}>
       <Screen

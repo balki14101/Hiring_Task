@@ -59,7 +59,8 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.WHITE,
-    padding: 16,
+    paddingHorizontal: 16,
+    paddingTop: 16,
   },
   newTaskButtonView: {
     position: 'absolute',
