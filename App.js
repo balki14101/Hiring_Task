@@ -12,8 +12,6 @@ import {NavigationContainer} from '@react-navigation/native';
 //Screen
 import MainContainer from './Src/Screens/Main';
 
-const Height = Dimensions.get('screen').height;
-const Width = Dimensions.get('screen').width;
 const App = () => {
   return (
     <NavigationContainer>

@@ -6,6 +6,9 @@ import SvgUri from 'react-native-svg-uri';
 //Bottom-Tabs-Package
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
+//Colors
+import Colors from '../Constants/Colors';
+
 //Screens
 import HomeScreen from './Home';
 import GoalsScreen from './Goals';
@@ -26,10 +29,11 @@ const Main = () => {
       initialRouteName="Goals"
       screenOptions={{
         headerShown: false,
-        tabBarStyle: {backgroundColor: '#500472', height: 70},
-        tabBarActiveTintColor: 'white',
-        tabBarInactiveTintColor: 'white',
-        tabBarItemStyle: {margin: 16},
+        tabBarStyle: {backgroundColor: Colors.PRIMARY, height: 70},
+        tabBarActiveTintColor: Colors.TAB_BAR,
+        tabBarInactiveTintColor: Colors.TAB_BAR,
+        tabBarActiveBackgroundColor: 'red', // needs to be changed
+        tabBarItemStyle: {padding: 16},
       }}>
       <Screen
         name="Home"
